@@ -39,6 +39,5 @@ describe('Checkout', () => {
     }]
 
     expect(calculateTotal(items)).to.deep.equal(expected)
-
   })
 })
